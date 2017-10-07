@@ -70,7 +70,6 @@ console.log(blanksAndSuccesses);
 document.getElementById('blanks').innerHTML = blanksAndSuccesses.join(" ");
 document.getElementById('guesses-left').innerHTML = numGuesses;
 
-getChosen(chosenWord);
 }
 
 function checkLetters(letter){
